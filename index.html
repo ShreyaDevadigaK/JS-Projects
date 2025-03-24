@@ -13,16 +13,17 @@
 .projects-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
 }
 
 .project {
-    padding: 10px 20px;
+    padding: 10px;
     background-color: #007bff;
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .project:hover {
@@ -35,7 +36,7 @@
 
 iframe {
     width: 90%;
-    height: 500px;
+    height: 100vh;
     border: 1px solid #ccc;
 }
 
@@ -44,9 +45,17 @@ iframe {
 <body>
     <h1>My JavaScript Projects</h1>
     <div class="projects-container">
-        <div class="project" onclick="loadProject('project1.html')">Project 1</div>
-        <div class="project" onclick="loadProject('project2.html')">Project 2</div>
-        <div class="project" onclick="loadProject('project3.html')">Project 3</div>
+        <div class="project" onclick="loadProject('calculator.html')">Calculator</div>
+        <div class="project" onclick="loadProject('clock.html')">Digital Clock</div>
+        <div class="project" onclick="loadProject('counter.html')">Counter</div>
+        <div class="project" onclick="loadProject('diceroll.html')">Dice Roll</div>
+        <div class="project" onclick="loadProject('game.html')">Rock-paper-scissors</div>
+        <div class="project" onclick="loadProject('guess.html')">Number guessing game</div>
+        <div class="project" onclick="loadProject('password.html')">Password Generator</div>
+        <div class="project" onclick="loadProject('pokemon.html')">Pokemon</div>
+        <div class="project" onclick="loadProject('random.html')">Random number</div>
+        <div class="project" onclick="loadProject('stopwatch.html')">Stopwatch</div>
+        <div class="project" onclick="loadProject('temperature.html')">Temperature Converter</div>
     </div>
 
     <div class="project-display">
