@@ -19,5 +19,5 @@ This repository contains several JavaScript-based mini projects that demonstrate
 
 ## 🌐 Live Demo  
 
-This repository is deployed on **GitHub Pages**. You can access the projects [here](https:ShreyaDevadigaK//.github.io/JS-Projects/).  
+This repository is deployed on **GitHub Pages**. You can access the projects [here](https://shreyadevadigak.github.io/JS-Projects/).  
   
